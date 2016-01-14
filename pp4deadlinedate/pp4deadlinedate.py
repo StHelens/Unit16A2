@@ -5,11 +5,11 @@ currentDate = datetime.date.today()     #display todays date using the date.toda
 print(currentDate)
 
 
-def dateFunction(deadlinelv):           #parameter passed a string value containing a date
-    deadlineDate = datetime.datetime.strptime(deadlinelv,'%d/%m/%Y').date() #cast the locally scoped variable to datetime format
+def dateFunction(deadlineparam):           #parameter passed a string value containing a date
+    deadlineDate = datetime.datetime.strptime(deadlineparam,'%d/%m/%Y').date() #cast the passed parameter to a locally scoped variable in datetime format
     result = deadlineDate - currentDate #global variable currentDate used inside scope of the function
     result = str(result.days)           #.days function returns a total value formatted to days
-    return result                       #return the total days to the function call
+    return result                       #return the total days stored in the local variable to the function call
 
 deadlinegv = input('Enter the deadline date (dd/mm/yyyy) ')
 numOfDays = dateFunction(deadlinegv)    #call the dateFunction and store the return value in the numOfDays variable
