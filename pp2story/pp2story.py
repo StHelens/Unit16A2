@@ -1,5 +1,5 @@
-name = input("What is your name? ")
-print (name.upper())
+name = input("What is your name? ")     #name is a global variable which contains a value input by the user
+print (name.upper())                    #the .upper function capitalises every letter in the name variable
 
 print('''"What? Harmless? Is that all it's got to say? Harmless! One word!" 
 ''' + name.capitalize() + ''' shrugged. 
@@ -21,5 +21,5 @@ Then who is it?" said Arthur.
 "Well," said ''' + name.capitalize() + ''', "if we're lucky it's just the Vogons come to throw us in to space." 
 "And if we're unlucky?" 
 "If we're unlucky," said ''' + name.capitalize() + ''' grimly, "the captain might be serious in his threat that he's going to read us some of his poetry first ..." 
-''')
+''') #using three apostrophes (''') allows the string to flow to a new line without multiple print statemets
 input('')

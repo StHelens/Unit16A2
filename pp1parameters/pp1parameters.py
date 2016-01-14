@@ -1,8 +1,8 @@
-def printmessage(message):
+def printmessage(message):  #a simple procedure that accepts a string parameter
     print(message)
-    return
+    return                  #nothing is returned from this procedure
 
-printmessage('hello world')
+printmessage('Hello world')         #calling the printmessage procedure and passing in a string value
 printmessage('St Helens College')
-printmessage('is the best')
-printmessage('')
+printmessage('Is the best')
+print('')
