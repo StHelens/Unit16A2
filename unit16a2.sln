@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pp1parameters", "pp1parameters\pp1parameters.pyproj", "{EA6FEEFF-74B7-4647-9C89-3FCFCC0B96AE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pp2story", "pp2story\pp2story.pyproj", "{9A3BD25E-10AD-453E-A0D2-450B343C8D87}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pp3salarybonus", "pp3salarybonus\pp3salarybonus.pyproj", "{5EBDE08D-B34D-4CF2-89D5-B92A0609FB23}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pp4deadlinedate", "pp4deadlinedate\pp4deadlinedate.pyproj", "{CB426176-5008-4912-A10C-7BACBAA7A72B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pp5loancalculator", "pp5loancalculator\pp5loancalculator.pyproj", "{F2EB68D5-6044-4852-A92D-DDAB6189DC4C}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pp6turtle", "pp6turtle\pp6turtle.pyproj", "{A6BFFC3A-9B9B-4D54-A99F-F6ECB1D75A14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA6FEEFF-74B7-4647-9C89-3FCFCC0B96AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6FEEFF-74B7-4647-9C89-3FCFCC0B96AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3BD25E-10AD-453E-A0D2-450B343C8D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3BD25E-10AD-453E-A0D2-450B343C8D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBDE08D-B34D-4CF2-89D5-B92A0609FB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBDE08D-B34D-4CF2-89D5-B92A0609FB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB426176-5008-4912-A10C-7BACBAA7A72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB426176-5008-4912-A10C-7BACBAA7A72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EB68D5-6044-4852-A92D-DDAB6189DC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EB68D5-6044-4852-A92D-DDAB6189DC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BFFC3A-9B9B-4D54-A99F-F6ECB1D75A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BFFC3A-9B9B-4D54-A99F-F6ECB1D75A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
