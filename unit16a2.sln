@@ -15,6 +15,11 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pp5loancalculator", "pp5loa
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "pp6turtle", "pp6turtle\pp6turtle.pyproj", "{A6BFFC3A-9B9B-4D54-A99F-F6ECB1D75A14}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE1EDB7B-BE15-4C1F-B7C2-50A4C97696C4}"
+	ProjectSection(SolutionItems) = preProject
+		debugScreenshot.PNG = debugScreenshot.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
